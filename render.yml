@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: rekii-bot
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: DISCORD_TOKEN
+        value: MTQyODEyNzk4MTgyOTc1MDgwNQ.G7oi_m.la4k2uq5al2Z96cW_yUI64UpY7xHoTm-89s5B4
